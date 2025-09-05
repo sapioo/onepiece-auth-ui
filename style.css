@@ -1,0 +1,157 @@
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  color: #4a4a4a;
+  background-image: url("https://images3.alphacoders.com/132/thumb-1920-1323165.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 60px;
+  box-sizing: border-box;
+}
+.auth-portal {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+}
+.auth-header {
+  background-color: rgba(196, 1, 250, 0.297);
+  backdrop-filter: blur(5px);
+  padding: 10px 5px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.auth-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #f4f4f4;
+}
+.auth-header p {
+  margin: 2px 0 0;
+  font-size: 0.75rem;
+  color: #e2a0f2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.form-container {
+  background-color: rgba(196, 1, 250, 0.297);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-transform: bold;
+}
+#signup-form,
+#login-form {
+  color: #f193f6;
+}
+#signup-form h2,
+#login-form h2,
+#signup-form .subtitle,
+#login-form .subtitle {
+  color: #ffbdf6;
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+  color: #333;
+}
+.subtitle {
+  margin-top: -10px;
+  margin-bottom: 30px;
+  color: #666;
+}
+label {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #f81fff;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  background-color: #f6cef9;
+  transition: all 0.3s ease;
+}
+input:focus {
+  outline: none;
+  border-color: #fb42ab;
+  box-shadow: 0 0 20px rgba(230, 115, 180, 0.4);
+}
+.btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(45deg, #facbf4, #f3bbec);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 10px;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.switch-form {
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+.switch-form a {
+  color: #fddffc;
+  font-weight: 700;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+.page-footer {
+  position: static;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.4);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#signup-form.form-container {
+  padding: 18px 24px;
+}
+#signup-form h2 {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+}
+#signup-form .subtitle {
+  margin: 0 0 16px;
+  font-size: 0.8rem;
+}
+#signup-form label {
+  margin-bottom: 3px;
+  font-size: 0.75rem;
+}
+#signup-form input {
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+#signup-form .btn {
+  padding: 10px;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="auth-portal">
+      <div class="auth-header">
+        <h1>Wano Entry Pass Portal</h1>
+        <p>Sign up or Login to access your Wano Entry Pass</p>
+      </div>
+
+      <div class="form-container hidden" id="signup-form">
+        <h2>Join the Adventure!</h2>
+        <p class="subtitle">Fill up your details!</p>
+        <form>
+          <label for="signup-username">Username</label>
+          <input
+            type="text"
+            id="signup-username"
+            placeholder="Choose your username"
+          />
+          <label for="signup-email">Email</label>
+          <input
+            type="email"
+            id="signup-email"
+            placeholder="Enter your email"
+          />
+          <label for="signup-password">Password</label>
+          <input
+            type="password"
+            id="signup-password"
+            placeholder="Enter your password"
+          />
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirm your password"
+          />
+          <button type="submit" class="btn">Create Account</button>
+        </form>
+        <p class="switch-form">
+          Already have an account?
+          <a href="#" id="show-login-link">Sign In Here</a>
+        </p>
+      </div>
+
+      <div class="form-container" id="login-form">
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Log In to continue your journey</p>
+        <form>
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" placeholder="Enter your email" />
+          <label for="login-password">Password</label>
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Enter your password"
+          />
+          <button type="submit" class="btn">Log In</button>
+        </form>
+        <p class="switch-form">
+          Don't have an account?
+          <a href="#" id="show-signup-link">Create One</a>
+        </p>
+      </div>
+    </main>
+    <footer class="page-footer">Manan Garg</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
